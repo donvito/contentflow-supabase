@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-sm;
+  }
+
+  .input {
+    @apply bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#6C5CE7] text-gray-900;
+  }
+
+  .button {
+    @apply bg-[#6C5CE7] text-white rounded-md hover:bg-[#6C5CE7]/90 transition-colors;
+  }
+}
